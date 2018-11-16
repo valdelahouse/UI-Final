@@ -1,0 +1,47 @@
+#header{
+  width: 98%;
+  height: 30%;
+  border: 1px solid black;
+  padding: 1%;
+  float: left;
+}
+#discover{
+  padding-left: 30%;
+  float: left;
+}
+.button {
+	margin-top: 5px;
+  background-color: #b3b3b3;
+  color: black;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 10px;
+  float: left;
+}
+/* Group of buttons*/
+.button-group button {
+    background-color: #ffb833; /* Green background */
+    border: 1px solid orange; /* Green border */
+    color: white; /* White text */
+    padding: 10px 10px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+}
+
+.button-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.button-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+.button-group button:hover {
+    background-color: #e69500;
+}
